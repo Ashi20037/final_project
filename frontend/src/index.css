@@ -1,0 +1,64 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+#b-img{
+    background-image: url("https://p.turbosquid.com/ts-thumb/hX/WsoDEj/hS/1/jpg/1609508442/300x300/sharp_fit_q85/1ad12fbb70ce00896f7662ddd27da365e01dd0f0/1.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+#carousel{
+    max-height: 400px;
+  }
+  #card{
+    max-width: 18rem;
+  }
+ 
+.book-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(8px); 
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px; 
+  padding: 20px;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.glassmorphism:hover {
+  background: rgba(255, 255, 255, 0.078); 
+}
+
+.parallax {
+  background-image: url('./Images/liby.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-width: 2000px;
+  margin: 3rem;
+}
+.parallax3 {
+  background-image: url('./Images/liby.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 2000px;
+  margin: 3rem;
+}
+
+.custom-shadow {
+  box-shadow: 5px 5px 10px #ff0000; 
+}
+
+:root {
+  --card-gradient2: linear-gradient(to right, #C54B96, #2ECC71);
+  --card-gradient: linear-gradient(to right, #f53900, #4B55C5);
+}
+
